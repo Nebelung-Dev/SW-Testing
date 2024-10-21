@@ -1,0 +1,8 @@
+<h1>SW Testing</h1>
+<script>
+  (async () => {
+    if ("serviceWorker" in navigator) {
+      await navigator.serviceWorker.register("/sw.js");
+    }
+  })();
+</script>

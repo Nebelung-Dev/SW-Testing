@@ -1,0 +1,10 @@
+{
+  "name": "sw-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server public"
+  },
+  "author": "Nebelung"
+}
